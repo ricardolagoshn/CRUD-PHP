@@ -7,7 +7,7 @@
 
     $database = new Database();
     $db = $database->getConnection();
-
+ 
     $items = new Empleados($db);
 
     $stmt = $items->getEmployees();
